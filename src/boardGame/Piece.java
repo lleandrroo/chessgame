@@ -1,10 +1,10 @@
-package chessgame.boardGame;
+package boardGame;
 
 public class Piece {
-	protected int position;
+	protected Position position;
 	private Board board;
 	
-	public Piece(int position, Board board) {
+	public Piece(Board board) {
 		this.position = position;
 		this.board = null;
 	}
